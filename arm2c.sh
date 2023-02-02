@@ -11,7 +11,7 @@ EOF
 cat > /tmp/waste.py <<EOF
 import platform
 if platform.machine()=="aarch64":
-  memory = bytearray(int(2.4*1024*1024*1024)) # 2.4G (10% of 24G)
+  memory = bytearray(int(1.2*1024*1024*1024)) # 1.2G (10% of 12G)
 while True:
   pass
 EOF
